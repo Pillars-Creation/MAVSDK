@@ -133,9 +133,9 @@ int main(int argc, char** argv)
     });
 #endif
     printf("Waiting for system to be ready\n");
-    while (telemetry.health_all_ok() != true) {
-        sleep_for(seconds(1));
-    }
+    // while (telemetry.health_all_ok() != true) {
+    //     sleep_for(seconds(1));
+    // }
     printf("System is ready\n");
 
     /*解锁与起飞*/
